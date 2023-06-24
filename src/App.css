@@ -2,9 +2,11 @@
     position: relative;
     width: 350px; /* Adjust the width as needed */
     height: 350px; /* Adjust the height as needed */
+    margin:12px;
 }
 
 .triangle-outline {
+    /* margin:12px; */
     top: 0;
     left: 0;
     width: 100%;
@@ -12,12 +14,12 @@
 }
 
 .icon {
-      /* margin:12px; */
+      margin:12px;
     position: absolute;
-    width: 15%; /* Adjust the size of the icons as needed */
-    height: 15%; /* Adjust the size of the icons as needed */
+    /* width: 15%;
+    height: 15%;  */
     background-color: hsl(0, 0%, 100%);
-    padding:10%;
+    padding:8%;
     border-radius: 100%;
     margin-top: -52px;
 }

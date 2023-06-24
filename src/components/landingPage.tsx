@@ -1,4 +1,3 @@
-
 import { Box, Button, Grid } from '@mui/material';
 import Header from './header/header';
 import GameArea from './GameArea';
