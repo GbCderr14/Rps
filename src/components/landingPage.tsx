@@ -12,9 +12,11 @@ function LandingPage(){
     <Grid container>
       <Grid item sm={3} xs={3} lg={3} md={3}/>
       <Grid item sm={6} xs={6} lg={6} md={6}  style={{display:"flex",alignItems:"center",justifyContent:"center",textAlign:"center"}}>
+        <Box style={{width:"12px"}}/>
       <Box>
       <GameArea />
       </Box>
+        <Box style={{width:"12px"}}/>
     </Grid>
       <Grid item sm={3} xs={3} lg={3} md={3}/>
     </Grid>
