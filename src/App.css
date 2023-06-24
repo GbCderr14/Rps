@@ -1,0 +1,48 @@
+.triangle-container {
+    position: relative;
+    width: 50vh; /* Adjust the width as needed */
+    height: 50vh; /* Adjust the height as needed */
+    /* overflow-y: scroll; */
+    /* margin:12px; */
+    min-width: 20vh;
+    min-height: 20vh;
+}
+
+.triangle-outline {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+      /* margin:12px; */
+    position: absolute;
+    width: 50px; /* Adjust the size of the icons as needed */
+    height: 50px; /* Adjust the size of the icons as needed */
+    background-color: hsl(0, 0%, 100%);
+    padding:32px;
+    border-radius: 100%;
+}
+
+.paper {
+    top: 0;
+    left: 0;
+    transform: translate(-25%, -50%);
+    border:12px solid red;
+}
+
+.scissor {
+    top: 0;
+    right: 0;
+    transform: translate(30%, -48%);
+    border:12px solid blue;
+}
+
+.rock {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border:12px solid yellow;
+  }
+  
