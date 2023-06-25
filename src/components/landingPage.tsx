@@ -14,6 +14,9 @@ function LandingPage() {
   const handleClick = () => {
     setGameToDisplay(!gameTodisplay);
   }
+   
+
+
   return <>
     <Box style={{ display: "flex", flexDirection: "column", justifyContent: "space-around", alignItems: "center" }}>
       <Box style={{ height: "3vh" }}></Box>
@@ -34,7 +37,7 @@ function LandingPage() {
     </Grid>
     {!gameTodisplay &&
       <Box style={{ width: "80%", margin: "auto" }}>
-        <ResultArea onClick={handleClick} />
+        <ResultArea onClick={handleClick} whoWon='hous'/>
       </Box>}
     <Box style={{ height: "8px" }}></Box>
     <Grid container>
@@ -53,3 +56,4 @@ function LandingPage() {
 }
 
 export default LandingPage;
+
