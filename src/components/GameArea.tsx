@@ -13,7 +13,7 @@ return <>
   <Box className="triangle-container" >
      <img src={BgTriangle} alt="trianglebg" className="triangle-outline"/>
      <Box className="icon paper" onClick={props.onClick}>
-      <img src={PaperIcon} alt="paper"/>=
+      <img src={PaperIcon} alt="paper"/>
      </Box>
      <Box className="icon scissor" onClick={props.onClick}>
       <img src={ScissorsIcon} alt="scissor"/>

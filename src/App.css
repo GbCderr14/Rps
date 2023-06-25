@@ -16,12 +16,19 @@
 .icon {
       margin:12px;
     position: absolute;
-    /* width: 15%;
-    height: 15%;  */
     background-color: hsl(0, 0%, 100%);
-    padding:8%;
+    padding:12%;
     border-radius: 100%;
     margin-top: -52px;
+    height:15%;
+    width:15%;
+}
+
+.icon:hover{
+    height:16%;
+    width:16%;
+    cursor: pointer;
+    box-shadow: inset 4px 6px #fff;
 }
 
 .paper {
@@ -40,7 +47,7 @@
 
 .rock {
     bottom: 0;
-    left: 50%;
+    left: 45%;
     transform: translateX(-50%);
     border:12px solid yellow;
   }
