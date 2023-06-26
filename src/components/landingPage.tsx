@@ -37,7 +37,7 @@ function LandingPage() {
     </Grid>
     {!gameTodisplay &&
       <Box style={{ width: "80%", margin: "auto" }}>
-        <ResultArea onClick={handleClick} whoWon='hous'/>
+        <ResultArea onClick={handleClick} whoWon='house'/>
       </Box>}
     <Box style={{ height: "8px" }}></Box>
     <Grid container>

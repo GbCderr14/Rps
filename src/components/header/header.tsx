@@ -1,6 +1,5 @@
 import { Box, Typography } from "@mui/material";
 import Logo from './../../assets/logo.svg';
-
 function Header() {
 
     return <>
@@ -10,7 +9,7 @@ function Header() {
             </Box>
             <Box style={{backgroundColor:"white",textAlign:"center",borderRadius:"5px",padding:"10px 24px"}}>
                 <Typography style={{fontFamily:"Barlow semi condensed", fontWeight:"bold",letterSpacing:2,color:"indigo"}}>SCORE</Typography>
-                <Typography style={{fontFamily:"Barlow semi condensed",fontWeight:"bold",fontSize:48}}>12</Typography>
+                <Typography style={{fontFamily:"Barlow semi condensed",fontWeight:"bold",fontSize:48}} id='score'>0</Typography>
             </Box>
         </Box>
     </>
